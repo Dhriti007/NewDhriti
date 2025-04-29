@@ -232,10 +232,12 @@ nav .logo {
 
   .menu {
     position: absolute;
+    display: none;
     top: 0;
     right: -100%;
-    height: 100vh;
-    width: 200px;
+    height: 90vh;
+    width: 150px;
+    border-radius: 20px;
     background: rgba(0, 12, 154, 0.3); /* Semi-transparent blue */
     backdrop-filter: blur(10px); /* Glass blur */
     -webkit-backdrop-filter: blur(10px); /* Safari support */
@@ -251,6 +253,7 @@ nav .logo {
 
   .menu.active {
     right: 0;
+    display: flex;
   }
 
   nav .menu a {
@@ -337,9 +340,9 @@ nav .logo {
 }
 
 .typing-text {
-  font-size: 48px;
-  font-weight: 900;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: max;
   white-space: nowrap;
   overflow: hidden;
   width: fit-content;

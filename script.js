@@ -3,6 +3,7 @@ function toggleMenu(btn) {
   document.getElementById("menu").classList.toggle("active");
 }
 
+
 // Scroll animation for logo
 const logo = document.querySelector(".logo");
 
@@ -17,10 +18,10 @@ function checkScroll() {
 window.addEventListener("scroll", checkScroll);
 window.addEventListener("load", checkScroll);
 const phrases = [
-  "Hi, It's DHRITI here",
-  "I'm Graphic Designer",
-  "UI/UX designer",
-  "Product designer",
+  "Hi",
+  "It's Dhriti here",
+  "I'm",
+  "Graphic Designer",
 ];
 
 const typingEl = document.getElementById("typing");
