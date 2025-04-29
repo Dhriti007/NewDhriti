@@ -74,3 +74,19 @@ window.addEventListener('load', function () {
   }, 1000);
 });
 
+// Reveal animation for project cards
+const projectCards = document.querySelectorAll(".project-card");
+
+const projectObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+projectCards.forEach(card => {
+  projectObserver.observe(card);
+});
