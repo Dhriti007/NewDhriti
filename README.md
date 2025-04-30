@@ -10,8 +10,9 @@ This project showcases my design skills, development capabilities, and creative 
 
 - ⚡ **Responsive Design** — mobile, tablet, and desktop ready
 - 🎨 **Creative Preloader** — neon glowing text while the site loads
+- 🧱 **Clean Card-Based Project Section** — easy to expand and mobile-optimized
 - 🎥 **Smooth Animations** — hover effects, scroll animations, and transitions
-- 🔥 **Minimalist Bento Grid** — project showcase layout
+- 💌 **Newsletter-style Contact Form** — users can send you messages via email
 - 📬 **Social Links** — LinkedIn, Instagram, Facebook, and Email contact
 
 ---
@@ -30,7 +31,7 @@ This project showcases my design skills, development capabilities, and creative 
 ## 🛠 Tech Stack
 
 - **HTML5**
-- **CSS3** (with custom media queries)
+- **CSS3** (with custom media queries and animations)
 - **JavaScript (Vanilla)** (no frameworks)
 - **Font Awesome** (for icons)
 - **Custom Fonts** (Retro Pixel, Qiulla)
@@ -44,7 +45,27 @@ This portfolio is fully optimized for:
 - Tablets 📲
 - Desktop screens 🖥️
 
-Media queries ensure the layout adapts smoothly across different screen sizes.
+Media queries and flexible grid/card systems ensure the layout adapts smoothly across screen sizes.
+
+---
+
+## 🧱 Projects Section (Updated)
+
+The original bento grid has been replaced with a modern **card-style grid** layout:
+- 6 uniform cards with project thumbnail + title
+- Zoom-in + glowing border on hover
+- Slide/fade-in animation on scroll
+- Fully responsive for all screen sizes
+- Clickable links (e.g. Figma project URLs)
+
+---
+
+## 💌 Contact Form
+
+A minimal contact form (newsletter-style) is included in the footer:
+- Users can enter their **email** and **message**
+- On submit, their **email client opens** with message pre-filled
+- No backend required — easy and fast for them to reach out!
 
 ---
 
@@ -62,12 +83,22 @@ A glowing neon **creative preloader** appears when the page loads, enhancing the
 
 No build tools, frameworks, or external dependencies required — it's a fully static and lightweight portfolio.
 
+---
+
+## 🖼️ Preview
+
+| Mobile View | Desktop View |
+|:-----------:|:------------:|
+| ![Mobile Preview](https://i.imgur.com/IeWjSV5.png) | ![Desktop Preview](https://i.imgur.com/6qrI0hR.png) |
+
+---
 
 ## 📝 Customization
 
 - Replace image placeholders (`your-image-1.png`, `your-about-image-1.png`, etc.) with your own artwork.
 - Update project images and titles in the **Project Section**.
-- Tweak neon colors or animations in `styles.css` if you want more personal branding.
+- Add your real Figma or live project URLs.
+- Tweak animation speeds or preloader effects in `styles.css`.
 
 ---
 
