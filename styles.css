@@ -344,8 +344,8 @@ background-size: 40px 40px;
 }
 
 .typing-text {
-  font-size: 32px;
-  font-weight: bolder;
+  font-size: 2.5em;
+  font-weight: bold;
   font-family: max;
   white-space: nowrap;
   overflow: hidden;
@@ -635,10 +635,12 @@ background-size: 40px 40px;
 }
 
 .footer-content h1 {
-  font-size: 70px;
+  font-size: 2.5em;
   font-weight: bold;
   font-family: max;
   margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 4px;
 }
 
 /* Social Icons */
@@ -769,7 +771,7 @@ background-size: 40px 40px;
   }
 
   .section-title {
-    font-size: 36px;
+    font-size: 2.5em;
   }
 
   .footer-content h1 {
