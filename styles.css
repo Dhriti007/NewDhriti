@@ -344,7 +344,8 @@ background-size: 40px 40px;
 }
 
 .typing-text {
-  font-size: 2.5em;
+  font-size: 2.0em;
+  letter-spacing: 2px;
   font-weight: bold;
   font-family: max;
   white-space: nowrap;
@@ -583,6 +584,7 @@ background-size: 40px 40px;
 /* Section Title */
 .section-title{
   font-family: max;
+  letter-spacing: 4px;
   font-weight: bold;
   font-size: 50px;
 }
@@ -635,7 +637,7 @@ background-size: 40px 40px;
 }
 
 .footer-content h1 {
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-weight: bold;
   font-family: max;
   margin-bottom: 40px;
