@@ -100,17 +100,22 @@ nav .logo {
   font-weight: bold;
   font-size: 14px;
   font-family: max;
-  transition: all 0.3s ease; /* Smooth animation */
+  transition: all 0.3s ease;
+  /* Smooth animation */
 }
 
 .menu a:hover {
-  color: #d0ff00; /* Bright neon color on hover */
-  transform: scale(1.1); /* Slight zoom */
+  color: #d0ff00;
+  /* Bright neon color on hover */
+  transform: scale(1.1);
+  /* Slight zoom */
 }
 
 .menu a:active {
-  transform: scale(0.92); /* Press down slightly */
-  color: #0a0a0a; /* Slightly different color on click */
+  transform: scale(0.92);
+  /* Press down slightly */
+  color: #0a0a0a;
+  /* Slightly different color on click */
 }
 
 
@@ -238,18 +243,22 @@ nav .logo {
     height: 90vh;
     width: 150px;
     border-radius: 20px;
-    background: rgba(0, 12, 154, 0.3); /* Semi-transparent blue */
-    backdrop-filter: blur(10px); /* Glass blur */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    background: rgba(0, 12, 154, 0.3);
+    /* Semi-transparent blue */
+    backdrop-filter: blur(10px);
+    /* Glass blur */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 25px;
     transition: right 0.4s ease;
     z-index: 100;
-    border-left: 1px solid rgba(255, 255, 255, 0.2); /* Optional subtle border */
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    /* Optional subtle border */
   }
-  
+
 
   .menu.active {
     right: 0;
@@ -311,9 +320,9 @@ nav .logo {
   background-color: aliceblue;
   color: black;
   background-image:
-  linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-background-size: 40px 40px;
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 .about-left {
@@ -344,8 +353,8 @@ background-size: 40px 40px;
 }
 
 .typing-text {
-  font-size: 2.0em;
-  letter-spacing: 2px;
+  font-size: 1.8em;
+  letter-spacing: 6px;
   font-weight: bold;
   font-family: max;
   white-space: nowrap;
@@ -582,12 +591,13 @@ background-size: 40px 40px;
 }
 
 /* Section Title */
-.section-title{
+.section-title {
   font-family: max;
   letter-spacing: 4px;
   font-weight: bold;
   font-size: 50px;
 }
+
 .project-container {
   max-width: 1300px;
   margin: auto;
@@ -610,9 +620,9 @@ background-size: 40px 40px;
   font-family: max;
   letter-spacing: 2px;
   background-image:
-  linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-background-size: 40px 40px;
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 /* Purple Section */
@@ -626,9 +636,9 @@ background-size: 40px 40px;
   overflow: hidden;
   flex-wrap: wrap;
   background-image:
-  linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-  linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-background-size: 40px 40px;
+    linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
 }
 
 /* Left Side */
@@ -696,6 +706,7 @@ background-size: 40px 40px;
   opacity: 1;
   transform: translate(10px, -10px);
 }
+
 /* UPDATED styles.css for Responsive Design */
 
 /* --- (keeping your existing styles untouched where not necessary) --- */
@@ -712,7 +723,8 @@ background-size: 40px 40px;
     padding: 20px;
   }
 
-  .about-left, .about-right {
+  .about-left,
+  .about-right {
     width: 100%;
   }
 
@@ -812,10 +824,12 @@ background-size: 40px 40px;
   from {
     text-shadow: 0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 20px #39FF14;
   }
+
   to {
     text-shadow: 0 0 20px #39FF14, 0 0 30px #39FF14, 0 0 40px #39FF14;
   }
 }
+
 .footer-bottom {
   background: #1e1e1e;
   color: white;
@@ -862,6 +876,7 @@ background-size: 40px 40px;
 .newsletter-form button:hover {
   background-color: #a5d700;
 }
+
 .newsletter-form {
   display: flex;
   flex-direction: column;
@@ -900,4 +915,3 @@ background-size: 40px 40px;
 .newsletter-form button:hover {
   background-color: #a5d700;
 }
-
