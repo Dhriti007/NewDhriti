@@ -419,7 +419,7 @@ nav .logo {
     opacity: 0;
   }
 
-  .image-wrapper.active-mobile .about-outkine-image {
+  .image-wrapper.active-mobile .about-outline-image {
     opacity: 1;
   }
 }
