@@ -229,6 +229,20 @@ nav .logo {
   letter-spacing: 8px;
   transform: translate(-50%, -50%) scaleX(1.1);
 }
+/* On scroll for mobile/tablet hero sction*/
+@media screen and (max-width: 1024px) {
+  .hero-images.active-mobile .Main {
+    opacity: 1;
+    transform: translate(30px, -30px);
+    z-index: 2;
+  }
+
+  .hero-images.active-mobile .Outline {
+    opacity: 0;
+    filter: blur(2px);
+    transform: scale(0.95);
+  }
+}
 
 @media (max-width: 768px) {
   .hamburger {
