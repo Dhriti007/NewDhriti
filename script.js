@@ -118,28 +118,4 @@ if (window.innerWidth <= 1024) {
   animateOnScrollMobile();
 }
 
-function animateOnScrollMobile() {
-  const pairs = document.querySelectorAll('.hero-images');
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('active-mobile');
-        } else {
-          entry.target.classList.remove('active-mobile');
-        }
-      });
-    },
-    {
-      threshold: 0.5,
-    }
-  );
-
-  pairs.forEach((el) => observer.observe(el));
-}
-
-// Run only on mobile and tablet
-if (window.innerWidth <= 1024) {
-  animateOnScrollMobile();
-}
