@@ -415,11 +415,11 @@ nav .logo {
 }
 /* On scroll for mobile/tablet */
 @media screen and (max-width: 1024px) {
-  .image-wrapper.active-mobile .about-outline-image {
+  .image-wrapper.active-mobile .about-main-image {
     opacity: 0;
   }
 
-  .image-wrapper.active-mobile .about-main-image {
+  .image-wrapper.active-mobile .about-outkine-image {
     opacity: 1;
   }
 }
