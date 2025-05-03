@@ -723,20 +723,7 @@ nav .logo {
   opacity: 1;
   transform: translate(10px, -10px);
 }
-/* On scroll for mobile/tablet footer sction*/
-@media screen and (max-width: 1024px) {
-  .footer-images.active-mobile .outline-footer-image {
-    opacity: 1;
-    transform: translate(30px, -30px);
-    z-index: 2;
-  }
 
-  .image-wrapper.active-mobile .main-footer-image {
-    opacity: 0;
-    filter: blur(3px);
-    transform: scale(0.95);
-  }
-}
 
 /* UPDATED styles.css for Responsive Design */
 
