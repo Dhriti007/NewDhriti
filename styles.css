@@ -416,11 +416,15 @@ nav .logo {
 /* On scroll for mobile/tablet */
 @media screen and (max-width: 1024px) {
   .image-wrapper.active-mobile .about-main-image {
-    opacity: 0.5;
+    opacity: 1;
+    transform: translate(30px, -30px);
+    z-index: 2;
   }
 
   .image-wrapper.active-mobile .about-outline-image {
-    opacity: 1;
+    opacity: 0;
+    filter: blur(2px);
+  transform: scale(0.95);
   }
 }
 /* Skill Strip */
