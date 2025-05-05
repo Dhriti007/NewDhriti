@@ -117,5 +117,22 @@ function animateOnScrollMobile() {
 if (window.innerWidth <= 1024) {
   animateOnScrollMobile();
 }
+// Hero section keywords
+//const heroSection = document.querySelector('.hero');
+//const floatingKeywords = document.querySelector('.floating-keywords');
+//let isVisible = false;
 
+//function toggleFloatingKeywords() {
+  //isVisible = !isVisible;
+  //floatingKeywords.style.display = isVisible ? 'flex' : 'none';
+//}
 
+//heroSection.addEventListener('click', toggleFloatingKeywords); // Mobile
+
+//heroSection.addEventListener('mouseenter', () => {
+  //if (window.innerWidth > 1024) floatingKeywords.style.display = 'flex';
+//});
+
+//heroSection.addEventListener('mouseleave', () => {
+//  if (window.innerWidth > 1024) floatingKeywords.style.display = 'none';
+//});

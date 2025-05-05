@@ -934,3 +934,153 @@ nav .logo {
 .newsletter-form button:hover {
   background-color: #a5d700;
 }
+/* Glitch Text for mobile and tablets */
+.mobile-glitch-text {
+  display: none;
+  position: relative;
+  color: #fbfbfb;
+  font-size: 1.2rem;
+  font-family: min;
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  animation: glitch-flicker 2s infinite;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+/* Show only on mobile and tablet */
+@media screen and (max-width: 1024px) {
+  .mobile-glitch-text {
+    display: block;
+  }
+}
+
+/* Glitch pseudo-elements */
+.mobile-glitch-text::before,
+.mobile-glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #a5d700;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.mobile-glitch-text::before {
+  animation: glitch-top 2.5s infinite linear;
+  color: #a5d700;
+}
+
+.mobile-glitch-text::after {
+  animation: glitch-bottom 2.5s infinite linear;
+  color: #fafafa;
+}
+
+/* Animation keyframes */
+@keyframes glitch-flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 22%, 24%, 55% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes glitch-top {
+  0% {
+    clip: rect(0, 9999px, 0, 0);
+    transform: translate(0, 0);
+  }
+  10% {
+    clip: rect(2px, 9999px, 10px, 0);
+    transform: translate(-2px, -2px);
+  }
+  20% {
+    clip: rect(10px, 9999px, 20px, 0);
+    transform: translate(2px, 2px);
+  }
+  100% {
+    clip: rect(0, 9999px, 0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes glitch-bottom {
+  0% {
+    clip: rect(0, 9999px, 0, 0);
+    transform: translate(0, 0);
+  }
+  10% {
+    clip: rect(12px, 9999px, 22px, 0);
+    transform: translate(2px, 2px);
+  }
+  20% {
+    clip: rect(22px, 9999px, 32px, 0);
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    clip: rect(0, 9999px, 0, 0);
+    transform: translate(0, 0);
+  }
+}
+/* Responsive Design for Keyword Balls */
+/*.floating-keywords {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.floating-keywords span {
+  background: rgba(0,0,0,0.8);
+  color: #fafafa;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  font-family: 'Qiulla', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 1.5px solid #fafafa;
+  box-shadow: 0 0 12px rgba(203, 255, 129, 0.6);
+  animation: floatGlitch 4s ease-in-out infinite;
+  position: relative;
+}
+
+/* Add subtle randomness for more premium feel */
+/*.floating-keywords span:nth-child(2n) {
+  animation-duration: 4.5s;
+}
+.floating-keywords span:nth-child(3n) {
+  animation-duration: 5s;
+}
+.floating-keywords span:nth-child(4n) {
+  animation-duration: 6s;
+}
+
+@keyframes floatGlitch {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(5px, -10px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-10px, 10px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(10px, -5px) rotate(1deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}*/
+
+/* Responsive Design for Keyword Balls */
